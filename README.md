@@ -89,3 +89,9 @@ Use three dictionaries to store the information:
 
 
 "exit": To finish this program.
+
+
+***IMPORTANT NOTE: 
+
+To quick access this project, I set impletement scrape data function and initial DB file function part as comment now. To scrape data again, please uncomment this part. 
+In fina_project.py, this part is from 507 to 516 row.

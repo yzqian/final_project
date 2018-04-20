@@ -501,7 +501,7 @@ def interactive():
         else:
             print("I don't know what's this")
 
-##implement function to scrap data from website and store them in DB file and json file
+##implement function to scrape data from website and store them in DB file and json file
 ### if initialize the entire project is needed, uncomment the following function:
 
 #state_list = ['Florida','Michigan','Georgia','illinois','indiana']
