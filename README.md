@@ -1,23 +1,17 @@
 This project scrape the rent information from http://www.mckinley.com/apartments
 
+
 To use this program, the following API keys are needed:
-
-plotly API
-
-mapbox_access_token
-
-Google Places API
+1.plotly API
+2.mapbox_access_token
+3.Google Places API
 
 
-secrets file format:
-
-google_places_key = '*******'
-
-mapbox_access_token= '*******'
-
-user_name = '*******'  ##user_name is the username for plotly website
-
-user_api='*****'       ##user_api is plotly API
+**secrets file format:
+**google_places_key = '*******'
+**mapbox_access_token= '*******'
+**user_name = '*******'  ##user_name is the username for plotly website
+**user_api='*****'       ##user_api is plotly API
 
 
 
@@ -28,7 +22,7 @@ Plotly User Guide in Python:   https://plot.ly/python/user-guide
 Documentation on the Google Places API: https://developers.google.com/places/web-service/search. 
 
 
-Project Structure:
+*Project Structure:
 
 The entire project mainly has four parts:
 
@@ -47,9 +41,7 @@ Use three dictionaries to store the information:
 3. feature: information about communities's features, for example, swimming pool, parking plot, fitness center etc.
 
 
-User Guide:
-
-User Input:
+*User Guide:
 
 "state" : It will return community list of certain state.
  
@@ -87,7 +79,8 @@ User Input:
 	User can compare the rent of same type room of two communities. 
 
 
-"map":	input "map" + community's name, e.g. "map Traver Ridge". It will return a plotly map of community's location.
+"map":	input "map" + community's name.
+	 e.g. "map Traver Ridge". It will return a plotly map of community's location.
 
 
 "exit": To finish this program.
