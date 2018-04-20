@@ -3,16 +3,20 @@ This project scrape the rent information from http://www.mckinley.com/apartments
 
 To use this program, the following API keys are needed:
 
-1.plotly API
-2.mapbox_access_token
-3.Google Places API
+1. plotly API.
+2. mapbox_access_token.
+3. Google Places API.
 
 
 ***secrets file format:
-	***google_places_key = '*******'
-	***mapbox_access_token= '*******'
-	***user_name = '*******'  ##user_name is the username for plotly website
-	***user_api='*****'       ##user_api is plotly API
+
+	google_places_key = '*******'
+
+	mapbox_access_token= '*******'
+
+	user_name = '*******'  ##user_name is the username for plotly website
+
+	user_api='*****'       ##user_api is plotly API
 
 
 
